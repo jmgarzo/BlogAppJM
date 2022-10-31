@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "234666966503",
+    "project_id": "blogappjm",
+    "storage_bucket": "blogappjm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234666966503:android:22924f12fa081b100c1142",
+        "android_client_info": {
+          "package_name": "com.example.blogappjm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234666966503-fn1mltjadfbql3bqo1roepa7oee37mr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACXLzb_u36Q1hqSvVXBFpb1FHfwQG0BEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234666966503-fn1mltjadfbql3bqo1roepa7oee37mr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:234666966503:android:f505dd8c73e286370c1142",
+        "android_client_info": {
+          "package_name": "com.jmgarzo.blogappjm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "234666966503-fn1mltjadfbql3bqo1roepa7oee37mr6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACXLzb_u36Q1hqSvVXBFpb1FHfwQG0BEM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "234666966503-fn1mltjadfbql3bqo1roepa7oee37mr6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
