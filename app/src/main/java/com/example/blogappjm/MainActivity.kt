@@ -10,8 +10,4 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
     }
-
-    suspend fun test(){
-        FirebaseFirestore.getInstance().collection("test").get().await()
-    }
 }
