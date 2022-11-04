@@ -18,8 +18,8 @@ class HomeScreenViewModel(private val repo: HomeScreenRepo) : ViewModel() {
     }
 }
 
-//class HomeScreenViewModelFactory(private val repo: HomeScreenRepo) : ViewModelProvider.Factory {
-//    override fun <T : ViewModel> create(modelClass: Class<T>): T {
-//        return modelClass.getConstructor(HomeScreenRepo)
-//    }
-//}
+class HomeScreenViewModelFactory(private val repo: HomeScreenRepo) : ViewModelProvider.Factory {
+    override fun <T : ViewModel> create(modelClass: Class<T>): T {
+        return modelClass.getConstructor(HomeScreenRepo::class.java).newInstance(repo)
+    }
+}
