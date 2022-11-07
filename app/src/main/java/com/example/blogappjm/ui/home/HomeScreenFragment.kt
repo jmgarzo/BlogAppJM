@@ -2,22 +2,18 @@ package com.example.blogappjm.ui.home
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment
-import android.view.LayoutInflater
 import android.view.View
-import android.view.ViewGroup
 import android.widget.Toast
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.Observer
 import com.example.blogappjm.R
 import com.example.blogappjm.core.Resource
-import com.example.blogappjm.data.model.Post
-import com.example.blogappjm.data.remote.HomeScreenDataSource
+import com.example.blogappjm.data.remote.home.HomeScreenDataSource
 import com.example.blogappjm.databinding.FragmentHomeScreenBinding
-import com.example.blogappjm.domain.HomeScreenRepoImpl
+import com.example.blogappjm.domain.home.HomeScreenRepoImpl
 import com.example.blogappjm.presentation.HomeScreenViewModel
 import com.example.blogappjm.presentation.HomeScreenViewModelFactory
 import com.example.blogappjm.ui.home.adapter.HomeScreenAdapter
-import com.google.firebase.Timestamp
 
 
 class HomeScreenFragment : Fragment(R.layout.fragment_home_screen) {

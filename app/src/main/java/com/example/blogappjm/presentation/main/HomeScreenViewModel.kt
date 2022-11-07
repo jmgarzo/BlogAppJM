@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.liveData
 import com.example.blogappjm.core.Resource
-import com.example.blogappjm.domain.HomeScreenRepo
+import com.example.blogappjm.domain.home.HomeScreenRepo
 import kotlinx.coroutines.Dispatchers
 
 class HomeScreenViewModel(private val repo: HomeScreenRepo) : ViewModel() {
