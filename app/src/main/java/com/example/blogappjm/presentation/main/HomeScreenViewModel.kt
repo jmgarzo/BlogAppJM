@@ -3,17 +3,17 @@ package com.example.blogappjm.presentation
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.liveData
-import com.example.blogappjm.core.Resource
+import com.example.blogappjm.core.Result
 import com.example.blogappjm.domain.home.HomeScreenRepo
 import kotlinx.coroutines.Dispatchers
 
 class HomeScreenViewModel(private val repo: HomeScreenRepo) : ViewModel() {
     fun fetchLatestPost() = liveData(Dispatchers.IO) {
-        emit(Resource.Loading())
+        emit(Result.Loading())
         try {
             emit(repo.getLatestPosts())
         } catch (e: Exception) {
-            emit(Resource.Failure(e))
+            emit(Result.Failure(e))
         }
     }
 }
